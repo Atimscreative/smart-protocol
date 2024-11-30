@@ -1,24 +1,23 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import "./App.css";
-import { Button } from "@/components/ui/button";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AppLayout from "./components/layouts/AppLayout";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <header className="">
-        <nav className="wrapper">
-          <div>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">How it works</a>
-            <a href="">Docs</a>
-          </div>
-
-          <Button>Login</Button>
-        </nav>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<AppLayout />}>
+            <Route index element={<Home />} />
+            {/* <Route path="blogs" element={<Blogs />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<NoPage />} /> */}
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

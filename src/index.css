@@ -6,11 +6,29 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* ... */
-
 @layer base {
   :root {
     --radius: 0.5rem;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-inter font-normal antialiased bg-smarty-400 text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-outfit;
+  }
+
+  .wrapper {
+    @apply max-w-7xl mx-auto px-4;
   }
 }
