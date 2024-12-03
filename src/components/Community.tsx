@@ -10,8 +10,8 @@ const Community = () => {
             Community and Ecosystem
           </h2>
 
-          <div className="flex flex-col items-center rounded-[1rem] bg-gradient-to-b from-smarty-100 to-smarty-200 p-6">
-            <p className="mb-10">
+          <div className="relative flex flex-col items-center overflow-hidden rounded-[1rem] bg-gradient-to-b from-smarty-100 to-smarty-200 p-6">
+            <p className="mb-10 max-w-4xl text-center md:text-balance md:text-2xl md:leading-normal">
               Join a thriving community of like-minded individuals committed to
               decentralization. Engage in discussions, participate in governance
               and help shape the future of the platform.
@@ -23,6 +23,10 @@ const Community = () => {
                 <ArrowRight />
               </span>
             </Button>
+
+            {/*  */}
+            <div className="absolute -bottom-24 -left-24 h-52 w-52 rounded-full border-[10px] border-[#FFFFFF] mix-blend-soft-light" />
+            <div className="absolute -bottom-24 -right-24 h-52 w-52 rounded-full border-[10px] border-[#FFFFFF] mix-blend-soft-light" />
           </div>
         </div>
       </section>

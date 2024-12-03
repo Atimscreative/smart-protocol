@@ -3,7 +3,7 @@ import EachElement from "./EachElement";
 const About = () => {
   return (
     <>
-      <section className="pt-16">
+      <section className="py-16">
         <div className="wrapper">
           <h2 className="mb-16 text-center text-4xl font-medium md:text-3xl lg:text-4xl">
             About Us
@@ -19,11 +19,11 @@ const About = () => {
                       key={index}
                       className="rounded-[1rem] bg-gradient-to-b from-white/85 via-transparent via-75% to-transparent p-0.5"
                     >
-                      <div className="rounded-[14px] bg-smarty-400 p-6 pb-10">
+                      <div className="rounded-[14px] bg-smarty-400 p-6 pb-10 lg:p-20">
                         <h3 className="mb-4 text-2xl font-medium">
                           {item.title}
                         </h3>
-                        <p>{item.content}</p>
+                        <p className="leading-[1.5]">{item.content}</p>
                       </div>
                     </div>
                   );

@@ -4,12 +4,12 @@ import icon from "@/assets/timeline.svg";
 const Roadmap = () => {
   return (
     <>
-      <section className="pt-16">
+      <section className="py-16">
         <div className="wrapper">
           <h2 className="mb-16 text-center text-4xl font-medium">
             Roadmap/Timeline
           </h2>
-          <div className="mx-auto grid max-w-2xl gap-8">
+          <div className="mx-auto grid max-w-2xl gap-8 lg:max-w-full lg:grid-cols-2 lg:items-center">
             <div className="grid gap-8">
               <EachElement
                 of={roadmap}
