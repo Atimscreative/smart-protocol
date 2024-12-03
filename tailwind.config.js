@@ -16,11 +16,11 @@ export default {
           200: "#6A1E55",
           100: "#A64D79",
         },
-			},
-			backgroundColor: {
-				background: "linear-gradient(40.21deg, #3B1632 -34.89%, #A13C88 111.25%)",
-
-			},
+      },
+      backgroundColor: {
+        background:
+          "linear-gradient(40.21deg, #3B1632 34.89%, #A13C88 111.25%)",
+      },
       fontFamily: {
         outfit: `"Outfit", sans-serif;`,
         inter: `"Inter", serif;`,
