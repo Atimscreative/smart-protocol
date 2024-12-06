@@ -7,7 +7,7 @@ const Footer = () => {
       <Glow className="absolute left-1/2 top-1/2 h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 scale-125 opacity-85 lg:h-[500px] lg:w-[500px] lg:scale-110" />
 
       <div className="wrapper">
-        <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-8 border-y border-white py-16 sm:px-10 lg:px-16">
+        <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-8 border-y border-white py-16 sm:px-10 md:flex-row lg:px-16">
           <a
             href="/"
             className="mb-4 inline-flex items-center gap-3 font-outfit"
