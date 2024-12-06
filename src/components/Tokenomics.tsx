@@ -1,10 +1,13 @@
 import EachElement from "./EachElement";
 import icon from "@/assets/tokenomics.svg";
+import Glow from "./Glow";
 
 const Tokenomics = () => {
   return (
     <>
-      <section className="py-16">
+      <section className="relative py-16">
+        <Glow className="absolute -bottom-20 -right-20 h-[500px] w-[500px] opacity-55" />
+
         <div className="wrapper">
           <h2 className="mb-16 text-center text-4xl font-medium">Tokenomics</h2>
           <div className="mx-auto flex max-w-2xl flex-col-reverse gap-8 lg:grid lg:max-w-full lg:grid-cols-2 lg:items-center">

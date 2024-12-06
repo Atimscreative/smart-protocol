@@ -4,13 +4,13 @@ import { Button } from "./ui/button";
 const Community = () => {
   return (
     <>
-      <section className="pt-16">
+      <section className="py-16">
         <div className="wrapper">
           <h2 className="mb-16 text-balance text-center text-4xl font-medium">
             Community and Ecosystem
           </h2>
 
-          <div className="relative flex flex-col items-center overflow-hidden rounded-[1rem] bg-gradient-to-b from-smarty-100 to-smarty-200 p-6">
+          <div className="relative flex flex-col items-center overflow-hidden rounded-[1rem] bg-gradient-to-b from-smarty-100 to-smarty-200 p-6 py-16">
             <p className="mb-10 max-w-4xl text-center md:text-balance md:text-2xl md:leading-normal">
               Join a thriving community of like-minded individuals committed to
               decentralization. Engage in discussions, participate in governance

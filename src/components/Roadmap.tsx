@@ -1,10 +1,12 @@
 import EachElement from "./EachElement";
 import icon from "@/assets/timeline.svg";
+import Glow from "./Glow";
 
 const Roadmap = () => {
   return (
     <>
-      <section className="py-16">
+      <section className="relative py-16">
+        <Glow className="absolute -left-20 top-0 h-[400px] w-[400px] scale-125 opacity-85" />
         <div className="wrapper">
           <h2 className="mb-16 text-center text-4xl font-medium">
             Roadmap/Timeline
