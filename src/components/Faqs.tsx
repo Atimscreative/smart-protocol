@@ -21,7 +21,7 @@ const Faqs = () => {
                 render={(
                   faq: {
                     title: string;
-                    content: string;
+                    content: string; 
                   },
                   index: number,
                 ) => (
