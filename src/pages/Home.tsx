@@ -8,7 +8,7 @@ import Tokenomics from "@/components/Tokenomics";
 
 const Home = () => {
   return (
-    <main className="contain-paint">
+    <main>
       <Hero />
       <About />
       <Features />
